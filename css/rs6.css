@@ -39,11 +39,11 @@ rs-sbg-px { pointer-events: none }
 .rtl {	direction: rtl;}
 @font-face {
   font-family: 'revicons';
-  src: url('/css/revicons/revicons.eot');
-  src: url('/css/revicons.eot?5510888#iefix') format('embedded-opentype'),
-	   url('/css/revicons/revicons.woff') format('woff'),
-	   url('/css/revicons.ttf') format('truetype'),
-	   url('/css/revicons.svg') format('svg');
+  src: url('./revicons/revicons.eot');
+  src: url('./revicons.eot?5510888#iefix') format('embedded-opentype'),
+	   url('./revicons/revicons.woff') format('woff'),
+	   url('./revicons.ttf') format('truetype'),
+	   url('./revicons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
