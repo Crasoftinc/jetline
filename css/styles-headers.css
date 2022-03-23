@@ -1,5 +1,7 @@
 /*Navbar*/
-
+.header1.row {
+    background: #ffffff !important;
+  }
 .is_header_semitransparent .sticky-wrapper {
     position: absolute;
     width: 100%;
