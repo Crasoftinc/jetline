@@ -1,6 +1,4 @@
-/* FIX FOR WORDPRESS's CRAZY <p> TAG ANOMALY */
 .rs-p-wp-fix { display: none !important; margin: 0 !important; height: 0px !important; }
-
 /* NEW Z-INDEX FIX*/
 .wp-block-themepunch-revslider { position: relative }
 
@@ -41,11 +39,11 @@ rs-sbg-px { pointer-events: none }
 .rtl {	direction: rtl;}
 @font-face {
   font-family: 'revicons';
-  src: url('../fonts/revicons/revicons.eot?5510888');
-  src: url('../fonts/revicons/revicons.eot?5510888#iefix') format('embedded-opentype'),
-	   url('../fonts/revicons/revicons.woff?5510888') format('woff'),
-	   url('../fonts/revicons/revicons.ttf?5510888') format('truetype'),
-	   url('../fonts/revicons/revicons.svg?5510888#revicons') format('svg');
+  src: url('/css/revicons/revicons.eot');
+  src: url('/css/revicons.eot?5510888#iefix') format('embedded-opentype'),
+	   url('/css/revicons/revicons.woff') format('woff'),
+	   url('/css/revicons.ttf') format('truetype'),
+	   url('/css/revicons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -1001,7 +999,16 @@ rs-dotted.threexthreewhite		{	background:url(../assets/gridtile_3x3_white.png)}
 *************************************/
 rs-progress						{	visibility: hidden; position:absolute; z-index:200;width:100%;height:100%;}
 rs-progress-bar,
-.rs-progress-bar				{ 	display:block;z-index: 20;box-sizing: border-box;background-clip: content-box;position: absolute; vertical-align:top;line-height:0px;width:100%;height:100%;}
+.rs-progress-bar				{ 	
+	/* display:block; */
+	z-index: 20;
+	box-sizing: border-box;
+	background-clip: content-box;
+	position: absolute; 
+	vertical-align: top;
+	line-height:0px;
+	width:100%;height:100%;
+}
 rs-progress-bgs 				{ 	display:block;z-index: 15;box-sizing: border-box; width: 100%; position: absolute; height: 100%; top: 0px; left: 0px; }
 rs-progress-bg					{	display:block;background-clip: content-box; position: absolute;width:100%;height:100%;}
 rs-progress-gap					{	display:block;background-clip: content-box; position: absolute;width:100%;height:100%;}
